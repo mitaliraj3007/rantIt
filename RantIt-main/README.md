@@ -9,34 +9,6 @@ RantIt is a platform where users can share their thoughts, opinions, or rants fr
 npm install
 ```
 
-### 2. Install Python Requirements
-```sh
-pip install -r requirements.txt
-```
-
-### 3. Configure Environment Variables
-Create a `.env` file with the following template:
-
-```env
-# ✅ Database Credentials
-DB_USER=postgres
-DB_HOST=localhost
-DB_NAME=// 
-DB_PASSWORD=// 
-DB_PORT=5432
-
-# ✅ Email Credentials (For Verification)
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=// 
-EMAIL_PASS=// 
-
-# ✅ Google OAuth Credentials
-GOOGLE_CLIENT_ID=// 
-GOOGLE_CLIENT_SECRET=// 
-GOOGLE_CALLBACK_URL=// 
-PERSPECTIVE_API_KEY=// 
-```
 
 ## Database Setup
 Run the following SQL queries to set up the database tables:
@@ -120,11 +92,6 @@ Run the following commands to start the backend and moderation system:
 node index.js
 ```
 
-### 2. Start the Python moderation API
-```sh
-python moderate.py
-```
-
 ## 🛠️ Features
 
 - User Authentication (Email & Google OAuth)
@@ -133,9 +100,6 @@ python moderate.py
 - Reply & Threaded Discussions
 - Simple UI with EJS
 
-
-## Screenshots
-gdrive link: https://drive.google.com/drive/folders/1IklHXAbWzQ-lI6TNq0u-WEJr3SBwMk6j
 
 ## 📜 License
 
